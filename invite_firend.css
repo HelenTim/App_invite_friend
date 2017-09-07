@@ -1,0 +1,166 @@
+/*css reset*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:transparent;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    font-size: 100px;
+}
+
+
+
+:focus {
+    outline: none;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-align: center;
+    text-decoration: none;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+div.part1{
+    background: url(images/part1_02.png) center center no-repeat;
+    background-size: 7.5rem 100%;
+    height: 6.29rem;
+    padding-top: 0.1px;
+}
+
+div.part2,div.part3,div.part4{
+
+    text-align: center;
+}
+
+div img{
+    width: 100%;
+    vertical-align: middle;
+    max-width: 750px;
+}
+
+div.part1>a.registered{
+    display: block;
+    width: 2.41rem;
+    height:0.64rem;
+    line-height: 0.64rem;
+    background-color: #ff684e;
+    border-radius: 0.32rem;
+    box-shadow: 0 0.07rem 0.02rem 0.03rem #e3510c;
+    font-size: 0.24rem;
+    color: #fff;
+    margin-top: 0.07rem;
+    margin-left: 2.9rem;
+}
+
+div.scan{
+    height:1.76rem;
+    margin-top: 2.95rem;
+    text-align: center;
+    text-indent: 0.65rem;
+}
+
+div.scan a{
+    /*当移动端小于750的时候，为了消除a元素里img元素不会在上方空出一段空白，所以有以下css样式*/
+    vertical-align: top;
+ }
+
+div.scan img{
+
+    height: 100%;
+    width: auto;
+    /*当移动端小于750的时候，为了消除a元素里img元素不会在上方空出一段空白，所以有以下css样式*/
+    vertical-align: top;
+}
+
+main{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+div.result{
+    text-align: center;
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+
+}
+
+div.result a{
+    color: #fb5c43;
+    text-decoration: underline;
+    padding-left: 0.6rem;
+}
+
